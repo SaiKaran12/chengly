@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+.asd{
+    height: 500px;
+    width: 500px;
+    border: 25px solid black;
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 40px;
+}
+h1:hover{
+    color:#ad1a1a;
+}
+#zxc{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    background: linear-gradient(to right, blue, red);
+    border: 5px solid black;
+}
+#zxc:hover{
+    background: linear-gradient(to right, green, yellow, pink);
+}
+#img1{
+    width: 100%;
+    height: auto;
+}
